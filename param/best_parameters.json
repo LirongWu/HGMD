@@ -1,0 +1,205 @@
+{
+    "cora": {
+        "GCN": {
+            "dataset": "cora",
+            "teacher": "GCN",
+            "student": "MLP",
+
+            "num_layers": 3,
+            "hidden_dim": 512,
+            "dropout_t": 0.6,
+            "dropout_s": 0.3,
+
+            "lambda": 0.1,
+            "tau": 0.9,
+            "alpha": 5.0,
+            "beta": 0.3,
+
+            "learning_rate": 0.01,
+            "weight_decay": 0.0005,
+            "max_epoch": 500,
+
+            "seed": 2023,
+            "save_mode": 1,
+            "data_mode": 0,
+            "model_mode": 1,
+            "distill_mode": 0,
+            "ablation_mode": 0,
+            "norm_type": "none"
+        }
+    },
+    "citeseer": {
+        "GCN": {
+            "dataset": "citeseer",
+            "teacher": "GCN",
+            "student": "MLP",
+
+            "num_layers": 2,
+            "hidden_dim": 256,
+            "dropout_t": 0.3,
+            "dropout_s": 0.6,
+
+            "lambda": 0.0,
+            "tau": 1.1,
+            "alpha": 5.0,
+            "beta": 0.4,
+
+            "learning_rate": 0.01,
+            "weight_decay": 0.0005,
+            "max_epoch": 500,
+
+            "seed": 2023,
+            "save_mode": 1,
+            "data_mode": 1,
+            "model_mode": 1,
+            "distill_mode": 0,
+            "ablation_mode": 0,
+            "norm_type": "none"
+        }
+    },
+    "pubmed": {
+        "GCN": {
+            "dataset": "pubmed",
+            "teacher": "GCN",
+            "student": "MLP",
+
+            "num_layers": 3,
+            "hidden_dim": 256,
+            "dropout_t": 0.5,
+            "dropout_s": 0.6,
+
+            "lambda": 0.0,
+            "tau": 0.9,
+            "alpha": 10.0,
+            "beta": 0.5,
+
+            "learning_rate": 0.01,
+            "weight_decay": 0.0005,
+            "max_epoch": 500,
+
+            "seed": 2023,
+            "save_mode": 1,
+            "data_mode": 2,
+            "model_mode": 1,
+            "distill_mode": 0,
+            "ablation_mode": 0,
+            "norm_type": "none"
+        }
+    },
+    "coauthor-cs": {
+        "GCN": {
+            "dataset": "coauthor-cs",
+            "teacher": "GCN",
+            "student": "MLP",
+
+            "num_layers": 2,
+            "hidden_dim": 512,
+            "dropout_t": 0.5,
+            "dropout_s": 0.6,
+
+            "lambda": 0.1,
+            "tau": 1.0,
+            "alpha": 1.0,
+            "beta": 0.4,
+
+            "learning_rate": 0.01,
+            "weight_decay": 0.005,
+            "max_epoch": 500,
+
+            "seed": 2023,
+            "save_mode": 1,
+            "data_mode": 3,
+            "model_mode": 1,
+            "distill_mode": 0,
+            "ablation_mode": 0,
+            "norm_type": "none"
+        }
+    },
+    "coauthor-phy": {
+        "GCN": {
+            "dataset": "coauthor-phy",
+            "teacher": "GCN",
+            "student": "MLP",
+
+            "num_layers": 2,
+            "hidden_dim": 256,
+            "dropout_t": 0.4,
+            "dropout_s": 0.5,
+
+            "lambda": 0.2,
+            "tau": 1.2,
+            "alpha": 5.0,
+            "beta": 0.3,
+
+            "learning_rate": 0.01,
+            "weight_decay": 0.0005,
+            "max_epoch": 500,
+
+            "seed": 2023,
+            "save_mode": 1,
+            "data_mode": 4,
+            "model_mode": 1,
+            "distill_mode": 0,
+            "ablation_mode": 0,
+            "norm_type": "none"
+        }
+    },
+    "amazon-photo": {
+        "GCN": {
+            "dataset": "amazon-photo",
+            "teacher": "GCN",
+            "student": "MLP",
+
+            "num_layers": 2,
+            "hidden_dim": 512,
+            "dropout_t": 0.5,
+            "dropout_s": 0.5,
+
+            "lambda": 0.2,
+            "tau": 0.9,
+            "alpha": 10.0,
+            "beta": 0.5,
+
+            "learning_rate": 0.01,
+            "weight_decay": 0.0005,
+            "max_epoch": 500,
+
+            "seed": 0,
+            "save_mode": 1,
+            "data_mode": 5,
+            "model_mode": 1,
+            "distill_mode": 0,
+            "ablation_mode": 0,
+            "norm_type": "none"
+        }
+    },
+    "ogbn-arxiv": {
+        "GCN": {
+            "dataset": "ogbn-arxiv",
+            "teacher": "GCN",
+            "student": "MLP",
+
+            "num_layers": 3,
+            "hidden_dim": 2048,
+            "dropout_t": 0.3,
+            "dropout_s": 0.3,
+
+            "lambda": 0.0,
+            "tau": 0.8,
+            "alpha": 10.0,
+            "beta": 0.5,
+
+            "learning_rate": 0.005,
+            "weight_decay": 0.0,
+            "max_epoch": 500,
+
+            "seed": 2023,
+            "save_mode": 1,
+            "data_mode": 7,
+            "model_mode": 1,
+            "distill_mode": 0,
+            "ablation_mode": 0,
+            "norm_type": "none"
+        }
+    }
+}
