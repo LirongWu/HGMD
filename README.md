@@ -70,6 +70,20 @@ python main.py --dataset citeseer --teacher GCN --model_mode 1
 ```
 
 
+## Citation
+
+If you find this project useful for your research, please use the following BibTeX entry.
+
+```
+@inproceedings{wu2024teach,
+  title={Teach Harder, Learn Poorer: Rethinking Hard Sample Distillation for GNN-to-MLP Knowledge Distillation},
+  author={Wu, Lirong and Liu, Yunfan and Lin, Haitao and Huang, Yufei and Li, Stan Z},
+  booktitle={Proceedings of the 33rd ACM International Conference on Information and Knowledge Management},
+  pages={2554--2563},
+  year={2024}
+}
+```
+
 
 ## License
 
